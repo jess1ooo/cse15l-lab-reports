@@ -1,5 +1,5 @@
 1. no argument (cd)
-![Image](cd 3.png)
+![Image](cd3.png)
 
 2. command with a path to a directory as an argument (cd)
    
