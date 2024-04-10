@@ -2,10 +2,10 @@
 ![Image](cd3.png)
 
 2. command with a path to a directory as an argument (cd)
-   
+![Image](cd2.png)
 
 4. command with a path to a file as an argument (cd)
-
+![Image](cd1.png)
 
 1. no argument (ls)
    
