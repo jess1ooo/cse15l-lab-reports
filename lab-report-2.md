@@ -16,6 +16,14 @@ Screenshot 2 - /add-message?s=How are you&user=yash
 3.The 'chatMessages' field gets updated by adding the new message and the 'handleRequest(URI url)' updates the 'chatMessages' field if the request is valid by adding the new message.
 
 Part 2:
+Without Password:
+![Image](without.png)
+
+Public Key:
+![Image](publickey2.png)
+
+Private Key:
+![Image](privatekey.png)
 
 Part 3:
 I've learned how to get on a browser using the terminal. I've also learned how to use curl to display the contents of files in the terminal so I don't need to open a browser. 
