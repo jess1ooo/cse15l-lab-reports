@@ -35,5 +35,5 @@ after -
 ![Image](bug2.png)
 terminal after -
 ![Image](pass4.png)
-5.
+5.In the 'filter' method the elements were being added incorrectly because they weren't only being added to the end of the list, they were also being added to the beginning so the list was reversed. The erasure of the index 0 part ensures that the order is correct because it is only adding to the end of the list. 
 
