@@ -1,5 +1,6 @@
 Part 1: 
-1.
+
+   1.
    @Test
     public void testFilterFail() {
         List<String> inputList = new ArrayList<>();
@@ -27,10 +28,8 @@ Part 1:
         List<String> filteredList = ListExamples.filter(inputList, alwaysFalseChecker);
 
         assertTrue(filteredList.isEmpty());
-    }
-  
-3. ![Image](sc1.png)
-   
+    }  
+3. ![Image](sc1.png)  
 4. The bug
    before -
 ![Image](bug1.png)
@@ -38,8 +37,20 @@ after -
 ![Image](bug2.png)
 terminal after -
 ![Image](pass4.png)
-
 5.In the 'filter' method the elements were being added incorrectly because they weren't only being added to the end of the list, they were also being added to the beginning so the list was reversed. The erasure of the index 0 part ensures that the order is correct because it is only adding to the end of the list. 
 
 Part 2: 
+grep functions
+1. grep -i
+*
+*
+2. grep -v
+*
+*
+3. grep -n
+*
+*
+4. grep -l
+*
+*
 
