@@ -55,9 +55,9 @@ grep functions
 * ![Image](-v2.png)
   - It's
 (3). grep -n
-* ![Image](-n1.png)
+* ![Image](n1.png)
   - It's
-* ![Image](-n2.png)
+* ![Image](n2.png)
   - It's
 (4). grep -l
 * ![Image](-l1.png)
