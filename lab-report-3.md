@@ -27,4 +27,13 @@
 
         assertTrue(filteredList.isEmpty());
     }
-3. 
+3. ![Image](sc1.png)
+4. The bug
+   before -
+![Image](bug1.png)
+after -
+![Image](bug2.png)
+terminal after -
+![Image](pass4.png)
+5.
+
