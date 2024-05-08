@@ -40,20 +40,28 @@ after -
 terminal after -
 ![Image](pass4.png)
 
-5.In the 'filter' method the elements were being added incorrectly because they weren't only being added to the end of the list, they were also being added to the beginning so the list was reversed. The erasure of the index 0 part ensures that the order is correct because it is only adding to the end of the list. 
+(5).In the 'filter' method the elements were being added incorrectly because they weren't only being added to the end of the list, they were also being added to the beginning so the list was reversed. The erasure of the index 0 part ensures that the order is correct because it is only adding to the end of the list. 
 
 Part 2: 
 grep functions
-1. grep -i
-*
-*
-2. grep -v
-*
-*
-3. grep -n
-*
-*
-4. grep -l
-*
-*
+(1). grep -i
+* ![Image](-i1.png)
+  - It's 
+* ![Image](-i2.png)
+  - It's 
+(2). grep -v
+* ![Image](-v1.png)
+  - It's
+* ![Image](-v2.png)
+  - It's
+(3). grep -n
+* ![Image](-n1.png)
+  - It's
+* ![Image](-n2.png)
+  - It's
+(4). grep -l
+* ![Image](-l1.png)
+  - It's
+* ![Image](-l2.png)
+  - It's
 
