@@ -1,0 +1,13 @@
+@Test
+    public void testFilterPass() {
+        List<String> inputList = new ArrayList<>();
+        inputList.add("apple");
+        inputList.add("banana");
+        inputList.add("orange");
+
+        StringChecker alwaysFalseChecker = s -> false;
+
+        List<String> filteredList = ListExamples.filter(inputList, alwaysFalseChecker);
+
+        assertTrue(filteredList.isEmpty());
+    }
