@@ -44,24 +44,36 @@ terminal after -
 
 Part 2: 
 grep functions
+
 (1). grep -i
 * ![Image](-i1.png)
-  - It's 
+  - This command ignores the case. It's useful when you're searching for something regardless of case. Here it is ignoring the case of "txt" in the 'biomed' directory.
+  - source: https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix
 * ![Image](-i2.png)
-  - It's 
+  - This command ignores the case. It's useful when you're searching for something regardless of case. In this instance "as" is
+  - source: https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix
+
 (2). grep -v
 * ![Image](-v1.png)
-  - It's
+  - This command finds lines that don't match, it essentially prints lines that don't contain the specified pattern. Here that pattern is 
+  - source: https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix
 * ![Image](-v2.png)
   - It's
+  - source: https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix
+
 (3). grep -n
 * ![Image](n1.png)
   - It's
+  - source: https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix
 * ![Image](n2.png)
   - It's
+  - source: https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix
+
 (4). grep -l
 * ![Image](-l1.png)
   - It's
+  -  source: https://www.cyberciti.biz/faq/howto-use-grep-command-in-linux-unix/
 * ![Image](-l2.png)
   - It's
+  - source: https://www.cyberciti.biz/faq/howto-use-grep-command-in-linux-unix/
 
