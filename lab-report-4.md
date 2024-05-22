@@ -4,7 +4,7 @@ Step 1:
 
 <img width="667" alt="image" src="https://github.com/jess1ooo/cse15l-lab-reports/assets/156467137/b4f85401-7ac1-404f-8835-f43c8bedda0e">
 
-Commands: I logged into ieng6 and then ran the command `cd<space>lab7<enter>'. This command changed the current working directory to lab7.
+Commands: I logged into ieng6 and then ran the command `cd<space>lab7<enter>`. This command changed the current working directory to lab7.
 
 Step 2:
 
@@ -24,7 +24,7 @@ Step 4:
 
 <img width="690" alt="image" src="https://github.com/jess1ooo/cse15l-lab-reports/assets/156467137/f86429b3-708a-4c00-8ac8-c0cfe2421c7d">
 
-Commands: I used the command `vim<space>ListExamples.java<enter>` then I used the keys <up><up><up><up><up><up><right><right><right><right><right><right><right><right><right><right><right><right><i><delete><2><esc><:wq>. This changed index1 to index2. 
+Commands: I used the command `vim<space>ListExamples.java<enter>` then I used the keys `<up><up><up><up><up><up><right><right><right><right><right><right><right><right><right><right><right><right><i><delete><2><esc><:wq>` This changed index1 to index2. 
 
 Step 5:
 
