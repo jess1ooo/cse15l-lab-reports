@@ -4,7 +4,7 @@ Step 1:
 
 <img width="667" alt="image" src="https://github.com/jess1ooo/cse15l-lab-reports/assets/156467137/b4f85401-7ac1-404f-8835-f43c8bedda0e">
 
-Commands: I logged into ieng6 and then ran the command `cd<space>lab7<enter>`. This command changed the current working directory to lab7.
+Commands: I logged into ieng6 using the command `ssh_jer019@ieng6.ucsd.edu<enter>` and then ran the command `cd<space>lab7<enter>`. This command changed the current working directory to lab7.
 
 Step 2:
 
@@ -21,6 +21,7 @@ Commands: I ran the commands `javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core
 
 
 Step 4:
+<img width="784" alt="image" src="https://github.com/jess1ooo/cse15l-lab-reports/assets/156467137/06bd3c29-b2d7-4200-bdac-27d704453155">
 
 <img width="690" alt="image" src="https://github.com/jess1ooo/cse15l-lab-reports/assets/156467137/f86429b3-708a-4c00-8ac8-c0cfe2421c7d">
 
