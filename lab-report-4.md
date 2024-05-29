@@ -4,7 +4,7 @@ Step 1:
 
 <img width="667" alt="image" src="https://github.com/jess1ooo/cse15l-lab-reports/assets/156467137/b4f85401-7ac1-404f-8835-f43c8bedda0e">
 
-Commands: I logged into ieng6 using the command `ssh_jer019@ieng6.ucsd.edu<enter>` and then ran the command `cd<space>lab7<enter>`. This command changed the current working directory to lab7.
+Commands: I logged into ieng6 using the command `ssh<space>jer019@ieng6.ucsd.edu<enter>` and then ran the command `cd<space>lab7<enter>`. This command changed the current working directory to lab7.
 
 Step 2:
 
