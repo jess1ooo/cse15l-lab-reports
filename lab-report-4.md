@@ -21,6 +21,7 @@ Commands: I ran the commands `javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core
 
 
 Step 4:
+
 <img width="784" alt="image" src="https://github.com/jess1ooo/cse15l-lab-reports/assets/156467137/06bd3c29-b2d7-4200-bdac-27d704453155">
 
 <img width="690" alt="image" src="https://github.com/jess1ooo/cse15l-lab-reports/assets/156467137/f86429b3-708a-4c00-8ac8-c0cfe2421c7d">
