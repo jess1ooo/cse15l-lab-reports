@@ -1,16 +1,19 @@
 Part 1: Debugging Scenario
 
 1. The Post
-My code is getting a 0 on autograder but it looks pretty good to be what could be wrong? It says the files not found, could it be a syntax error?
-<img width="557" alt="Screen Shot 2024-06-03 at 5 03 57 PM" src="https://github.com/jess1ooo/cse15l-lab-reports/assets/156467137/7b1b17c3-4881-4013-838c-1d02ab660fc9">
+My code is getting a 57 on autograder but it looks pretty good to be what could be wrong? It's failing 3 tests: testMergeLeftEmpty,testMergeInterleaved, and testMergeRightEnd.
+<img width="655" alt="image" src="https://github.com/jess1ooo/cse15l-lab-reports/assets/156467137/3a5a54cb-9698-4bd9-a46b-a5551b282621">
+
+
 
 
 2. TA Response
-You might have the labeled the class incorrectly try changing it to `ListExamples`
+How does the second while loop differ to the first while loop, should that be different, what are you trying to get the value for after each loop?
 
 3. Student Screenshot
-<img width="622" alt="Screen Shot 2024-06-03 at 5 12 14 PM" src="https://github.com/jess1ooo/cse15l-lab-reports/assets/156467137/e67e20b1-11d5-4b9b-9a32-08bcba8644bb">
-The bug was the class name being `ListMethods` instead of `ListExamples`.
+<img width="496" alt="image" src="https://github.com/jess1ooo/cse15l-lab-reports/assets/156467137/2951b76a-ebc3-4ffc-829b-97a771769bc8">
+
+The bug was on line 43 it should be index2 rather than index1.
 
 4. Setup Info
    - The file & directory structure needed was `List-Examples-Grader` as the main directory, then the `grading-area directory` inside of that. Inside of that directory is the `lib` folder containing the files to run tests. In the `grading-area directory` there is also the `ListExamples.java`, `result.txt`, and the `TestListExamples.java` files. Outside of the `grading-area directory` but inside the `List-Examples-Grader` directory are the `grade.sh`. `GradeServer.java`, `Server.java`, `TestListExamples.java` files. There is also a `student-submission` directory that contains the students `ListExamples.java` file.
@@ -64,10 +67,12 @@ class ListExamples {
     }
     return result;
   }
+
+
 }`
 - The command I used to find the bug was `./grade.sh https://github.com/jess1ooo/ListMethods.git`.
-- To fix the bug I changed the class name for `ListMethods` to `ListExamples`.
-
+- To fix the bug I fixed line 43 so that it was getting the value for index2 rather than index1.
 
 
 Part 2: Reflection
+Something cool I learned in the second half of this quarter is how to use bash and create an autograder myself. I learned how our assignments are basically graded. I've also learned some new things from my classmates like different study methods and other paths to get to classes and just around in general. 
