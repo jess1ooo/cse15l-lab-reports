@@ -24,55 +24,8 @@ The bug was on line 43 it should be index2 rather than index1.
    - The only file thats contents change is `ListExamples.java` file inside of the `student-submission` directory, depending on the file being graded.
 ListExamples.java before the bug is fixed:
 
-import java.util.ArrayList;
-import java.util.List;
+<img width="440" alt="image" src="https://github.com/jess1ooo/cse15l-lab-reports/assets/156467137/6b17b86c-111c-4b72-9906-a30366db5ec5">
 
-interface StringChecker { boolean checkString(String s); }
-
-class ListExamples {
-
-  // Returns a new list that has all the elements of the input list for which
-  // the StringChecker returns true, and not the elements that return false, in
-  // the same order they appeared in the input list;
-  static List<String> filter(List<String> list, StringChecker sc) {
-    List<String> result = new ArrayList<>();
-    for(String s: list) {
-      if(sc.checkString(s)) {
-        result.add(s);
-      }
-    }
-    return result;
-  }
-
-
-  // Takes two sorted list of strings (so "a" appears before "b" and so on),
-  // and return a new list that has all the strings in both list in sorted order.
-  static List<String> merge(List<String> list1, List<String> list2) {
-    List<String> result = new ArrayList<>();
-    int index1 = 0, index2 = 0;
-    while(index1 < list1.size() && index2 < list2.size()) {
-      if(list1.get(index1).compareTo(list2.get(index2)) < 0) {
-        result.add(list1.get(index1));
-        index1 += 1;
-      }
-      else {
-        result.add(list2.get(index2));
-        index2 += 1;
-      }
-    }
-    while(index1 < list1.size()) {
-      result.add(list1.get(index1));
-      index1 += 1;
-    }
-    while(index2 < list2.size()) {
-      result.add(list2.get(index2));
-      index1 += 1;
-    }
-    return result;
-  }
-
-
-}
 
 - The command I used to find the bug was `./grade.sh https://github.com/jess1ooo/ListMethods.git`.
 - To fix the bug I fixed line 43 so that it was getting the value for index2 rather than index1.
